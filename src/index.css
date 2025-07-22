@@ -1,1 +1,14 @@
 @import "tailwindcss";
+
+/* Import Inter from Google Fonts (optional if not self-hosting) */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+
+/* CSS Variable */
+:root {
+  --font-sans: 'Inter', sans-serif;
+}
+
+/* Optional Global Body Font */
+body {
+  font-family: var(--font-sans);
+}
